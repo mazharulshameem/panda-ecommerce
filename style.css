@@ -1,0 +1,138 @@
+.container{
+
+}
+.nav-item {
+  text-transform:capitalize;
+  font-size:15px;
+  letter-spacing: 1px;
+  margin-top: 5px;
+}
+.nav-item:hover{
+}
+
+.buy-buttons{
+  background-color: #FF136F;
+  padding: 8px 20px;
+  border-radius: 5px;
+  border: none;
+  color:white;
+  cursor: pointer;
+}
+.buy-buttons:hover{
+  background-color: black;
+  color: white;
+}
+.color{
+  background-color:#FEEAE9;
+}
+.price{
+  color: #FF136F;
+}
+.carousel-item{
+  padding: 25px 40px;
+}
+.buy-button{
+  background-color: #FF136F;
+  padding: 8px 20px;
+  border-radius: 5px;
+  border: none;
+  color:white;
+  cursor: pointer;
+}
+.fa-solid{
+  font-size: 13px;
+  align-items: center;
+}
+.buy-button:hover{
+background-color: black;
+}
+.cat1, .cat2, .cat3{
+  padding:10px 25px;
+  border-radius: 10px;
+}
+.cat1{
+  background-color: orange;
+}
+.cat2{
+  background-color: orchid;
+}
+.cat3{
+  background-color: blue;
+}
+.title{
+  color: white;
+  padding-left: 10px;
+}
+.catagories img{
+  width: 68px;
+  height: 90px;
+  padding-right: 10px;
+}
+.buy-now-button{
+  background-color:#FF136F;;
+  padding: 8px 20px;
+  border-radius: 5px;
+  border: none;
+  color:white;
+  cursor: pointer;
+  justify-content: center;
+
+}
+.backpack-full{
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.buy-now-button:hover{
+background-color:black;
+}
+.container.email-form{
+  background: white;
+  align-items: center;
+  padding-top: 90px;
+  justify-content: center;
+}
+.box{
+  text-align: center;
+  background-color: #FEEAE9;
+  padding: 130px;
+}
+.enter-text{
+  width:300px;
+  padding: 8px 30px;
+  border:none;
+  color:black;
+  background-color: white;
+}
+.subscribe{
+  background-color: #FF136F;
+  padding: 8px 25px;
+  color:white;
+  cursor: pointer;
+  border: none;
+  margin-left: -7px;
+}
+.subscribe:hover{
+  background-color: black;
+  color: white;
+}
+.footer{
+  padding-top: 40px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+@media screen and (max-width:576px) {
+  .enter-text{
+    width:200px;
+    padding: 8px 30px;
+    color:black;
+    background-color: white;
+    
+  }
+  .box{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 100px;
+  }
+}
